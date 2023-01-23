@@ -1,13 +1,22 @@
-function submitForm() {
-  // Get the values of the username and password fields
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
 
-  // Validate the form input
-  if (username === "" || password === "") {
-    document.getElementById("message").innerHTML = "Please fill in all fields.";
-  } else {
-    // Send the data to the server for authentication
-    // Code for sending the data to the server goes here
-  }
-}
+var loginForm = document.getElementById("login-form");
+
+// Add a submit event listener to the form
+loginForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Get the login credentials
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // Check if the credentials are valid
+    if (username === "admin" && password === "password") {
+        // Change the page to the desired site
+        window.location.href = "https://ku-caawinaya.amohamed00.repl.co/educational.html#";
+    } else {
+        // Show an error message
+        alert("Invalid username or password");
+    }
+});
+
+
