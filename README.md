@@ -1,3 +1,3 @@
 # ku caawinaya
 
-Educational Site
+Educational Site to learn to code in Af-Somaali
