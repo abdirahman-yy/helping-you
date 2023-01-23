@@ -1,2 +1,2 @@
 # ku caawinaya
-An app that uses AI to analyze a person's social media activity and provides personalized mental health support and self-care suggestions.
+An app that connects people who want to exchange skills or services. Users can create a profile, specify their skills or services, and search for other users who are offering something they need, or visa versa. They can connect with each other and exchange services or skills without any money involved. This app aims to build a community where people can share their skills and benefit from others, without the need of money.
